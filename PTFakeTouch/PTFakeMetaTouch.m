@@ -30,7 +30,7 @@ static NSMutableArray *touchAry;
         //随机一个没有使用的pointId
         pointId = [self getAvailablePointId];
         if (pointId==0) {
-            DLog(@"PTFakeTouch ERROR! pointId all used");
+            //DLog(@"PTFakeTouch ERROR! pointId all used");
             return 0;
         }
     }

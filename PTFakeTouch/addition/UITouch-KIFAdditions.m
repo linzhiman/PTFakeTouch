@@ -51,7 +51,7 @@ typedef struct {
     
     [self setView:hitTestView];
     [self setPhase:UITouchPhaseBegan];
-    DLog(@"initAtPoint setPhase 0");
+    //DLog(@"initAtPoint setPhase 0");
     [self _setIsFirstTouchForView:YES];
     [self setIsTap:NO];
     [self setTimestamp:[[NSProcessInfo processInfo] systemUptime]];
